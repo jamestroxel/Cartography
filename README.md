@@ -1,7 +1,7 @@
 https://jamestroxel.github.io/Cartography/
 
 # Step 1
-Create your Mapbox account and API token at https://account.mapbox.com/. Drop your token in the ```MAPBOX_API = ""``` variable in your config.py file. 
+Create your Mapbox account and API token at https://account.mapbox.com/. Drop your token in the ```MAPBOX_API = ""``` variable in your config.py file. JK TEST
 
 # Step 2
 Set up your pythni environment (if you haven't already)
