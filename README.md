@@ -1,9 +1,11 @@
 https://jamestroxel.github.io/Cartography/
 
 # Step 1
-Create your Mapbox account and API token. Drop your token in the ```MAPBOX_API = ""``` variable in your config.py file. 
+Create your Mapbox account and API token at https://account.mapbox.com/. Drop your token in the ```MAPBOX_API = ""``` variable in your config.py file. 
 
 # Step 2
+Set up your pythni environment (if you haven't already)
+
 Follow the instructions up to step 5 here: https://medium.com/faun/the-right-way-to-set-up-python-on-your-mac-e923ffe8cf8e. Installing other packages is fine but not necessary for this exercise.
 
 
