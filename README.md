@@ -1,7 +1,7 @@
 
 ![olist_header](/images/olist_sales_header.PNG)
 
-Live Site: https://jamestroxel.github.io/Cartography/
+Live @ https://jamestroxel.github.io/Cartography/
 
 # Overview
 This repository maps a dataset of 100k order shipments from the Brazilian department store Olist by visualizing coordinate arcs between seller and buyer zip codes.
