@@ -32,7 +32,7 @@ pip install shapely
 brew install gdal #(assuming homebrew installed python 3)
 #write this within terminal:
 GDAL_CONFIG=/path/to/gdal-config pip3 install fiona
-#contain installing with pip and homebrew
+#continue installing with pip and homebrew
 pip install pyproj
 brew install spatialindex
 pip install Rtree
