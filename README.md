@@ -1,15 +1,15 @@
-https://jamestroxel.github.io/Cartography/
 
 ![olist_header](/images/olist_sales_header.PNG)
 
+Live Site: https://jamestroxel.github.io/Cartography/
+
 # Overview
-This repository maps a dataset of approixmately 100k orders made at the Brazilian departmetn store Olist. 
+This repository maps a dataset of 100k order shipments from the Brazilian department store Olist by visualizing coordinate arcs between seller and buyer zip codes.
 
 # Dataset
-The [original dataset](https://www.kaggle.com/olistbr/brazilian-ecommerce?select=olist_orders_dataset.csv) is stored as multiple csv's representing a relational database schema. This schema is visualized below and provided as a combined file with geolocation information of sellers and buyers in [our repository](https://github.com/jamestroxel/Cartography/blob/master/data/olist_orders_geo.csv). The python script to combine this through a chain series of pandas merge commands is saved as [olist_data_merge.py](olist_data_merge.py).
+The [original dataset](https://www.kaggle.com/olistbr/brazilian-ecommerce?select=olist_orders_dataset.csv) includes multiple csv's that represent a relational database schema. This schema is visualized below and provided as a combined file with geolocation information of sellers and buyers [within the repository](https://github.com/jamestroxel/Cartography/blob/master/data/olist_orders_geo.csv). The python script to combine this through a chain series of pandas merge commands is saved as [olist_data_merge.py](olist_data_merge.py).
 
 ![olist_schema](/images/olist_data.png)
-
 
 # Visualize
 
@@ -32,6 +32,7 @@ pip install shapely
 brew install gdal #(assuming homebrew installed python 3)
 #write this within terminal:
 GDAL_CONFIG=/path/to/gdal-config pip3 install fiona
+#contain installing with pip and homebrew
 pip install pyproj
 brew install spatialindex
 pip install Rtree
