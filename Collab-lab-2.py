@@ -188,7 +188,7 @@ config = {
     }
   }
 }
-
+## 1st 
 df = pd.read_csv("data/olist_orders_geo.csv")
 
 
